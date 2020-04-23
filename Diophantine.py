@@ -27,4 +27,3 @@ def diophantine(a, b, c):
   t=c/d
   assert c==a*t*x+b*t*y
   return (t*x,t*y)
-print (diophantine(4,5,20))
