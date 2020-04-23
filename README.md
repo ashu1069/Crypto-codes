@@ -1,2 +1,2 @@
 # Crypto-codes
-Methods of encryption and decryption
+The methods required to learn to proceed into cryptography
