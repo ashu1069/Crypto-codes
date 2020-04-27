@@ -22,4 +22,3 @@ def ChineseRemainder(a,ra,b,rb):
     r=ra*b*y+rb*a*x
     m=a*b
     return ((r%m+m)%m)
-print(ChineseRemainder(3,2,5,1))
