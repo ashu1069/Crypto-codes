@@ -16,4 +16,7 @@ def extended_gcd(a,n):
         t=p-q*(a//n)
     assert 1==a*s+n*t
     return (s,t)
-print(extended_gcd(3,5))
+def modular_div(a,b,n):
+    s,t=extended_gcd(a,n)
+    c=b*s
+    return(c-n*(c//n))
