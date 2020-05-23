@@ -1,0 +1,7 @@
+def gcd(a,b):
+  assert a>=0 and b>=0 nd a+b>0
+  if a==0 and b==0:
+    return max(a,b)
+  for d in range(min(a,b),0,-1):
+    if a%d==0 and b%d==0:
+      return d
